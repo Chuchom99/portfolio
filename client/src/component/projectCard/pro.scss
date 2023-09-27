@@ -1,0 +1,40 @@
+.pro{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    width: calc(33.33% - 10px); 
+    margin: 5px; 
+    // padding: 10px;
+
+    img{
+        width: 90%;
+        // height: 10%;
+        border-radius: 10px;
+        // display: none;
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    span{
+        width: 90%;
+    }
+}
+
+@media (max-width:1010px){
+    .pro{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+        width: calc(50% - 10px); 
+        margin: 5px; 
+    
+        img{
+            height: 100%;
+            border-radius: 5px;
+        }
+    }
+}
